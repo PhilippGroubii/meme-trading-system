@@ -96,10 +96,23 @@ terraform/override.tf.json
 terraform/*_override.tf
 terraform/*_override.tf.json
 
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+*.log
+*.db
+
+# Terraform - EXCLUDE EVERYTHING
+terraform/
+531dc3945d31d8788280469a87d0706959b008f3
+
 # IDE
 .DS_Store
 .idea/
 .vscode/
+
 *.swp
 *.swo
 
@@ -113,3 +126,8 @@ credentials.json
 # Logs
 *.log
 logs/
+
+# Credentials
+*.pem
+*.key
+531dc3945d31d8788280469a87d0706959b008f3
