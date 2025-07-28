@@ -1,0 +1,71 @@
+# Environment
+venv/
+meme_env/
+.env
+.env.local
+.env.production
+
+# Cache
+__pycache__/
+*.pyc
+.pytest_cache/
+*.pyo
+*.pyd
+
+# Data
+data/*.csv
+data/*.json
+logs/*.log
+models/*.pkl
+models/*.h5
+models/*.joblib
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+.Spotlight-V100
+.Trashes
+
+# Secrets
+credentials.json
+api_keys.json
+*.pem
+*.key
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary
+*.tmp
+*.bak
+*.backup
+temp/
+tmp/
+
+# Trading specific
+trades.json
+positions.json
+bot_state.json
+halt_history.json
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Testing
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# Documentation
+docs/_build/
